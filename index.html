@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16"  href="Imagem/iconDice.png">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="Css/StyleBtn.css">
+    <script defer src="Js/Script.js"></script>
+
+
+    <title>Ficha RPG</title>
+
+    <img src="Imagem/OrdoRealitas.png" class="logo">
+   
+        <div class="nomeJogador">
+            <p class="txtNome"> Nome do personagem</p>
+            <input type="text" id="nomePersonagem" class="boxNome" value="">
+        </div>
+        
+        <div class="idadeJogador">
+            <p class="txtIdade"> Idade</p>
+            <input type="text" id="idadePersonagem" class="boxIdade" value="">
+        </div>   
+
+        <div class="alturaJogador">
+            <p class="txtAltura"> Altura</p>
+            <input type="number" id="alturaPersonagem" class="boxAltura" value="">
+        </div>
+
+        <div class="origemJogador">
+            <p class="txtOrigem"> Origem</p>
+            <input type="text" id="origemPersonagem"class="boxOrigem" value="">
+        </div>
+
+    </head>
+<body>
+    <!---<img src="Imagem/5Atributos.png" class="Atributos">  -->   
+    
+    <!-- ATRIBUTOS -->
+        <div class="FOR">
+            <p class="txtAtributo"> FOR </p>
+            <input type="text" id="for"class="atributoFor" value="">
+        </div>
+
+        <div class="INT">
+            <p class="txtAtributo"> INT </p>
+            <input type="text" id="int" class="atributoInt" value="">
+        </div>
+
+        <div class="blackAtributo">
+            <p class="txtBlackAtributo"> ATRIBUTOS </p>
+        </div>
+
+        <div class="AGI">
+            <p class="txtAtributo"> AGI </p>
+            <input type="text" id="agi" class="atributoAgi" value="">
+        </div>
+
+        <div class="PRE">
+            <p class="txtAtributo"> PRE </p>
+            <input type="text" id="pre" class="atributoPre" value="">
+        </div>
+
+        <div class="VIG">
+            <p class="txtAtributo"> VIG </p>
+            <input type="text" id="vig" class="atributoVig" value="">
+        </div>
+
+    <!-- PERÍCIAS -->  
+        <div class="blackPericia">
+            <p class="txtBlackPericia" > PERÍCIAS </p>
+        </div>
+
+        <div class="pericia">
+            <p class="nomePericia">Acrobacia: <a class="nomeDado"> [ AGI ]...............................</a></p>
+            <input type="text" id="acrobacia" class="teste perAcro" value=""><br>
+
+            <p class="nomePericia">Adestramento: <a class="nomeDado"> [ PRE ]......................</a></p>
+            <input type="text" id="adestramento" class="teste perAdes" value=""><br>
+
+            <p class="nomePericia">Artes: <a class="nomeDado"> [ PRE ]......................................</a></p>
+            <input type="text" id="artes" class="teste perArte" value=""><br>
+
+            <p class="nomePericia">Atletismo: <a class="nomeDado"> [ FOR ]..............................</a></p>
+            <input type="text" id="atletismo" class="teste perAtle" value=""><br>
+
+            <p class="nomePericia">Atualidades: <a class="nomeDado"> [ INT ]............................</a></p>
+            <input type="text" id="atualidades" class="teste perAtua" value=""><br>
+
+            <p class="nomePericia">Ciências: <a class="nomeDado"> [ INT ]..................................</a></p>
+            <input type="text" id="ciencias" class="teste perCien"value=""><br>
+
+            <p class="nomePericia">Crime: <a class="nomeDado"> [ AGI ]......................................</a></p>
+            <input type="text" id="crime" class="teste perCrim"value=""><br>
+
+            <p class="nomePericia">Diplomacia: <a class="nomeDado"> [ PRE ]............................</a></p>
+            <input type="text" id="diplomacia" class="teste perDipl"value=""><br>
+
+            <p class="nomePericia">Enganação: <a class="nomeDado"> [ PRE ]............................</a></p>
+            <input type="text" id="enganacao" class="teste perEnga"value=""><br>
+
+            <p class="nomePericia">Fortitude: <a class="nomeDado"> [ VIG ]................................</a></p>
+            <input type="text" id="fortitude" class="teste perFort"value=""><br>
+
+            <p class="nomePericia">Furtividade: <a class="nomeDado"> [ AGI ]............................</a></p>
+            <input type="text" id="furtividade" class="teste perFurt"value=""><br>
+
+            <p class="nomePericia">Iniciativa: <a class="nomeDado"> [ AGI ].................................</a></p>
+            <input type="text" id="iniciativa" class="teste perInic" value=""><br>
+
+            <p class="nomePericia">Intimidação: <a class="nomeDado"> [ PRE ]...........................</a></p>
+            <input type="text" id="intimidacao" class="teste perInti"value=""><br>
+
+            <p class="nomePericia">Intuição: <a class="nomeDado"> [ PRE ].................................</a></p>
+            <input type="text" id="intuicao" class="teste perIntui" value=""><br>
+
+            <p class="nomePericia">Investigação: <a class="nomeDado"> [ INT ]..........................</a></p>
+            <input type="text" id="investigacao" class="teste perInve" value=""><br>
+
+            <p class="nomePericia">Luta: <a class="nomeDado"> [ FOR ].......................................</a></p>
+            <input type="text" id="luta" class="teste perLuta" value=""><br>
+
+            <p class="nomePericia">Medicina: <a class="nomeDado"> [ INT ].................................</a></p>
+            <input type="text" id="medicina" class="teste perMedi" value=""><br>
+
+            <p class="nomePericia">Ocultismo <a class="nomeDado"> [ INT ]...............................</a></p>
+            <input type="text" id="ocultismo" class="teste perOcul" value=""><br>
+
+            <p class="nomePericia">Percepção: <a class="nomeDado"> [ PRE ]............................</a></p>
+            <input type="text" id="percepcao" class="teste perPerc" value=""><br>
+
+            <p class="nomePericia">Pilotagem: <a class="nomeDado"> [ AGI ]..............................</a></p>
+            <input type="text" id="pilotagem" class="teste perPilo" value=""><br>
+
+            <p class="nomePericia">Pontaria: <a class="nomeDado"> [ AGI ].................................</a></p>
+            <input type="text" id="pontaria" class="teste perPont" value=""><br>
+
+            <p class="nomePericia">Profissão: (<input type="text" id="qualProfissao" class="profissao" value="">)<a class="nomeDado">[ INT ]</a></p>
+            <input type="text" id="profissao" class="teste perProf" value=""><br>
+            
+            <p class="nomePericia">Reflexos: <a class="nomeDado"> [ AGI ].................................</a></p>
+            <input type="text" id="reflexos" class="teste perRefl" value=""><br>
+
+            <p class="nomePericia">Religião: <a class="nomeDado"> [ PRE ].................................</a></p>
+            <input type="text" id="religiao" class="teste perReli" value=""><br>
+
+            <p class="nomePericia">Sobrevivência: <a class="nomeDado"> [ INT ]........................</a></p>
+            <input type="text" id="sobrevivencia" class="teste perSobr" value=""><br>
+
+            <p class="nomePericia">Tática: <a class="nomeDado"> [ INT ]......................................</a></p>
+            <input type="text" id="tatica" class="teste perTati" value=""><br>
+
+            <p class="nomePericia">Tecnologia: <a class="nomeDado"> [ INT ].............................</a></p>
+            <input type="text" id="tecnologia" class="teste perTecn" value=""><br>
+
+            <p class="nomePericia">Vontade: <a class="nomeDado"> [ PRE ]................................</a></p>
+            <input type="text" id="vontade" class="teste perVont" value=""><br>
+
+            
+        </div>
+
+        <!------------ SAÚDE ------------>  
+        <div class="blackSaude">
+            <p class="txtBlackSaude" > SAÚDE </p>
+        </div>
+
+            <!-- VIDA --> 
+            <div class="posicaoSaude">
+                <P class="txtSaude"> PV <a class="descricao"> (Pontos de Vida + Vig)</a></P><br>
+            </div>
+                <input type="text" id="vidaMax" value="" class="pontosVidaMax" placeholder="Valor MAX"><input type="text" id="vidaMin" value="" class="pontosVidaMin" placeholder="Valor MIN">
+           
+                <!-- SANIDADE -->
+            <div class="posicaoSanidade">
+                <P class="txtSanidade"> SAN <a class="descricao"> (Pontos de Sanidade)</a></P><br>
+            </div>
+                <input type="text" id="saniMax" value="" class="pontosSanidadeMax" placeholder="Valor MAX"><input type="text" id="saniMin" value="" class="pontosSanidadeMin" placeholder="Valor MIN">
+
+            <!-- ESFORÇO -->
+            <div class="posicaoEsforco">
+                <P class="txtEsforco"> PE <a class="descricao"> (Pontos de Esforço + Pre)</a></P><br>
+            </div>
+                <input type="text" id="esforMax" value="" class="pontosEsforcoMax" placeholder="Valor MAX"><input type="text" id="esforMin" value="" class="pontosEsforcoMin" placeholder="Valor MIN">
+
+
+        <!------------ RESISTÊNCIAS ------------>  
+        <div class="blackResistencia">
+            <p class="txtBlackResistencia" > RESISTÊNCIAS </p>
+        </div>
+
+            <!-- FÍSICA -->  
+            <div class="posicaoFisica">
+                <p class="txtFisica"> Física </p> <br>
+                <input type="text" id="resFisica" class="pontosFis" value="">
+            </div>
+             
+            <!-- BALÍSTICA -->  
+            <div class="posicaoBalistica">
+                <p class="txtBalistica"> Balística </p> <br>
+                <input type="text" id="resBalistica" class="pontosBalis" value="">
+            </div>
+            
+            <!-- SANIDADE -->  
+            <div class="posicaoSani">
+                <p class="txtSani"> Sanidade </p> <br>
+                <input type="text" id="resSanidade" class="pontosSani" value="">
+            </div>
+
+        <!------------ DEFESAS ------------>  
+        <div class="blackDefesa">
+            <p class="txtDefesa"> Defesas </p>
+        </div>
+
+            <!-- PASSIVA --> 
+            <div class="posicaoDef">
+                <P class="txtDef"> PASSIVA <a class="descricao"> (10 + AGI)</a></P><br>
+            </div>
+                <input type="text" id="passiva" class="pontosDEF" value="">
+
+            <!-- ESQUIVA --> 
+            <div class="posicaoEsq">
+                <P class="txtEsq"> ESQUIVA <a class="descricao"> (10 + Reflexo)</a></P><br>
+            </div>
+                <input type="text" id="esquiva" class="pontosEsq" value="">
+
+             <!------------ ARMAS ------------> 
+             <div class="titleArmas">
+                <p class="txtArmas"> Armas </p>
+             </div>
+
+             <div class="boxArmas">
+                <P class="txtBox"> ------ Arma ------ Tipo ------ Ataque ------ Alcance ------ Dano ------ Critico ------ Recarga ------ Especial ------</p>
+                    <input type="text" value="" id="arma1" class="bxL linha1"><br>
+                    <input type="text" value="" id="arma2" class="bxL linha2"><br>
+                    <input type="text" value="" id="arma3" class="bxL linha3"><br>
+                    <input type="text" value="" id="arma4" class="bxL linha4"><br>
+                    <input type="text" value="" id="arma5" class="bxL linha5"><br>
+            </div>
+
+            <div class="titleInventario">
+                <img src="Imagem/bag.png" class="bag"><p class="txtInventario"> Inventario </p>
+            </div>
+
+            <div class="titleDetalhe">
+                <p class="txtItem">Item</p><br>
+                <input type="text" value="" id="item1" class="bxI boxItem1"><br>
+                <input type="text" value="" id="item2" class="bxI boxItem2"><br>
+                <input type="text" value="" id="item3" class="bxI boxItem3"><br>
+                <input type="text" value="" id="item4" class="bxI boxItem4"><br>
+                <input type="text" value="" id="item5" class="bxI boxItem5"><br> 
+                <input type="text" value="" id="item6" class="bxI boxItem6"><br>   
+                <input type="text" value="" id="item7" class="bxI boxItem7"><br> 
+                <input type="text" value="" id="item8" class="bxI boxItem8"><br>
+            </div>
+            <div class="titleDeta">
+                <p class="txtDeta">Detalhes</p><br>
+                <input type="text" value="" id="info1" class="bxD boxDeta1"><br>
+                <input type="text" value="" id="info2" class="bxD boxDeta2"><br>
+                <input type="text" value="" id="info3" class="bxD boxDeta3"><br>
+                <input type="text" value="" id="info4" class="bxD boxDeta4"><br>
+                <input type="text" value="" id="info5" class="bxD boxDeta5"><br>
+                <input type="text" value="" id="info6" class="bxD boxDeta6"><br> 
+                <input type="text" value="" id="info7" class="bxD boxDeta7"><br>
+                <input type="text" value="" id="info8" class="bxD boxDeta8"><br>
+            </div>
+            <div class="titleEspaco">
+                <p class="txtEspa">Espaço</p><br>
+                <input type="text" value="" id="espaco1" class="bxE boxEspa1"><br>
+                <input type="text" value="" id="espaco2" class="bxE boxEspa2"><br>
+                <input type="text" value="" id="espaco3" class="bxE boxEspa3"><br> 
+                <input type="text" value="" id="espaco4" class="bxE boxEspa4"><br>
+                <input type="text" value="" id="espaco5" class="bxE boxEspa5"><br>
+                <input type="text" value="" id="espaco6" class="bxE boxEspa6"><br> 
+                <input type="text" value="" id="espaco7" class="bxE boxEspa7"><br>
+                <input type="text" value="" id="espaco8" class="bxE boxEspa8"><br>
+                
+            </div>
+            <div class="titlePeso">
+                <p class="txtPeso">Peso</p><br>
+                <input type="text" value="" id="peso1" class="bxP boxPeso1"><br>
+                <input type="text" value="" id="peso2" class="bxP boxPeso2"><br>
+                <input type="text" value="" id="peso3" class="bxP boxPeso3"><br> 
+                <input type="text" value="" id="peso4" class="bxP boxPeso4"><br>
+                <input type="text" value="" id="peso5" class="bxP boxPeso5"><br>
+                <input type="text" value="" id="peso6" class="bxP boxPeso6"><br> 
+                <input type="text" value="" id="peso7" class="bxP boxPeso7"><br>
+                <input type="text" value="" id="peso8" class="bxP boxPeso8"><br>
+
+            </div>
+
+            <div class="somaPesoEspaco">
+                <p class="txtMensagem">O total de espaços vazios são: 
+                <input type="" value="" id="somaEspaco"class="boxSomaEspa" placeholder=" Disp." readonly>
+                <input type="" value="" id="somaPeso" class="boxSomaPeso" placeholder=" Disp." readonly>
+                
+            </div>
+
+            <!------------ CARACTERISTICAS ------------> 
+            <div class="titleCarac">
+                <p class="txtCarac"> Características </p>
+            </div>
+
+            <div class="boxCarac">
+                <textarea value="" id="textoCaract" class="blocoCarac" placeholder="Descreva suas características, habilidas, manias, hobbies, sua motivação e afins: "></textarea>
+
+            </div>
+
+            <!------------ HABILIDADES ------------> 
+            <div class="titleHab">
+                <p class="txtHab"> Habilidades </p>
+            </div>
+
+            <div class="boxHab">
+                <textarea value="" id="textohabi" class="blocoHab" placeholder="Digite a habilidade da ORIGEM escolhida e as adquiridas:"></textarea>
+
+            </div>
+
+            <!-- Botões -->   
+
+            <div class="boxBtn">
+                <button onclick="enviar()" class="btn salvar" > Salvar </button>
+                <button onclick="mostrar()" class="btn atualizar"> Mostrar </button>
+                <button onclick="apagar()" class="btn apagar"> Limpar </button>
+            </div>
+</body>
+</html>
